@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@prisma/client": "^2.25.0",
     "date-fns": "^2.22.1",
     "gray-matter": "^4.0.3",
     "next": "^10.0.0",
@@ -15,5 +16,8 @@
     "react-dom": "17.0.1",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1"
+  },
+  "devDependencies": {
+    "prisma": "^2.25.0"
   }
 }
