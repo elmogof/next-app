@@ -5,7 +5,7 @@ import { getAllCommentIds, getCommentData } from '../../lib/comments'
 
 export default function Comment({ commentData }) {
   const { item } = commentData
-  // console.log(item)
+  console.log(item)
   return (
     <Layout>
       <Head>
